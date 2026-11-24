@@ -129,7 +129,13 @@ export const HeroSection = () => {
         <div className="mt-1 xs:mt-3 sm:mt-6 shrink-0">
           <div className="h-px w-16 xs:w-20 bg-[#9C7A3F]" />
           <p className="hero-body mt-2 xs:mt-3 sm:mt-6 max-w-sm sm:max-w-sm text-[13px] xs:text-[14px] sm:text-base leading-[1.55] sm:leading-[1.65] text-[#2c2c26]">
-            wishing you a day filled with love, laughter, and all the happiness your heart can hold. May this year bring you endless joy and unforgettable memories. Happy Birthday!
+            Happy Birthday, My Love! ❤️🥺
+
+Today is not just your birthday; it's the day someone truly special came into this world and made life more beautiful. I pray that Allah fills your life with endless happiness, peace, success, and countless blessings. May every silent prayer of your heart come true. ❤️
+
+I don't know how to explain how special you are to me. You are one of the most beautiful blessings in my life, and I pray that I always get to see you smiling. No matter what life brings, I will always wish the best for you. May Allah protect you from every sadness and keep your heart full of happiness.
+
+Happy Birthday once again, my favourite person! May your every tomorrow be more beautiful than yesterday. You deserve all the happiness in this world. ❤️🫀✨
           </p>
         </div>
       </div>
