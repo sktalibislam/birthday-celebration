@@ -91,7 +91,7 @@ interface Remaining {
   seconds: number;
 }
 
-const DEFAULT_TARGET = new Date('2026-11-11T00:00:00+05:30');
+const DEFAULT_TARGET = new Date('2026-11-27T00:00:00+05:30');
 
 async function getRemaining(targetTime: number) {
   const res = await fetch('/api/time', { cache: 'no-store' });
@@ -118,10 +118,10 @@ type UnitKey = 'days' | 'hours' | 'minutes' | 'seconds';
 
 export default function ShowtimeCountdown({
   targetDate,
-  tickerText = 'HAPPY BIRTHDAY SWEETY ·',
-  marqueeTitle = "Sweety's Birthday",
-  marqueeSub = "forever yours, made with all my love for Sweety ❤️",
-  doorsText = 'celebrating Sweety',
+  tickerText = 'HAPPY BIRTHDAY NEHA ·',
+  marqueeTitle = "Neha's Birthday",
+  marqueeSub = "forever yours, made with all my love for Neha ❤️",
+  doorsText = 'celebrating Neha',
   songSrc,
   songVolume = 0.6,
   redirectTo,

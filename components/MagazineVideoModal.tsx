@@ -144,7 +144,7 @@ function InstagramThemeIcon({ className = "w-4 h-4" }: { className?: string }) {
 export default function MagazineVideoModal({
   isOpen,
   onClose,
-  name = "Sweety",
+  name = "Neha",
 }: MagazineVideoModalProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -304,7 +304,7 @@ export default function MagazineVideoModal({
   const handleShareNative = async () => {
     const shareData = {
       title: `${name}'s Birthday Magazine`,
-      text: `Happy Birthday ${name}! 📖💖 Watch her special Birthday Magazine film! ✨`,
+      text: `Happy Birthday Neha! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #Neha`,
       url: window.location.href,
     };
 
@@ -350,7 +350,7 @@ export default function MagazineVideoModal({
 
   const handleCopyCaption = () => {
     navigator.clipboard.writeText(
-      `Happy Birthday Sweety! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #Sweety`
+      `Happy Birthday Neha! 👑✨ The prettiest girl and the love of my life 💖🎂 #BirthdayQueen #Neha`
     );
     setCopiedCaption(true);
     setTimeout(() => setCopiedCaption(false), 2400);
@@ -387,7 +387,7 @@ export default function MagazineVideoModal({
           <div className="flex flex-col">
             <div className="flex items-center gap-2 mb-0.5">
               <span className="text-[10px] font-mono tracking-[0.24em] text-[#9f773a] uppercase font-semibold">
-                ✦ SPECIAL BIRTHDAY ARCHIVE · SWEETY ✦
+                ✦ SPECIAL BIRTHDAY ARCHIVE · NEHA ✦
               </span>
             </div>
             <h2 className="text-xl sm:text-2xl font-serif tracking-wide text-[#2b2118] font-semibold">
@@ -458,7 +458,7 @@ export default function MagazineVideoModal({
                 ) : (
                   <>
                     <Volume2 className="w-3.5 h-3.5 text-[#9f773a]" />
-                    <span className="font-semibold">Playing: Sweety Song</span>
+                    <span className="font-semibold">Playing: Neha Song</span>
                   </>
                 )}
               </button>

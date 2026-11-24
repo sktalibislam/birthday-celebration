@@ -9,12 +9,12 @@ import MeltingMusicPlayerFrame from "./MeltingMusicPlayerFrame";
  * ========================================================================== */
 
 export const FLIPBOOK_CONFIG = {
-  name: "SWEETY",
-  fullName: "SWEETY",
+  name: "NEHA",
+  fullName: "NEHA",
   age: "BIRTHDAY",
   date: "SPECIAL DAY",
   sender: "YOUR FAVORITE PERSON",
-  accentColor: "#6b5836", // Olive-gold foil color used in template
+  accentColor: "#6b5836",
 };
 
 /** 35mm Filmstrip Border Helper */
@@ -210,7 +210,7 @@ export function PageWhosThatGirl() {
               The girl with the sweetest smile, the most captivating eyes, and the gentlest soul in this whole world. She turns every simple second into pure magic, radiating warmth, innocence, and unmatched grace.
             </p>
             <p className="text-[9.5px] leading-[1.45] text-justify font-sans">
-              My favourite person, my happy place, and the girl who has my whole heart. An angel was born—and I am the luckiest guy alive to call you mine. Happy Birthday, Sweety!
+              My favourite person, my happy place, and the girl who has my whole heart. An angel was born—and I am the luckiest guy alive to call you mine. Happy Birthday, Neha!
             </p>
           </div>
         </div>
@@ -1020,7 +1020,7 @@ export function PageThingsILoveAboutYou() {
     },
     {
       num: "05",
-      title: "JUST BEING MY SWEETY",
+      title: "JUST BEING MY NEHA",
       desc: "No one in this world compares to you. You are my princess, my love, and my world.",
       img: "/ref/girl5.jpg",
     },
@@ -1182,7 +1182,7 @@ export function PageFavouriteMemory() {
             src="/ref/girl.jpg"
             alt="Favourite Memory"
             title="iPhone"
-            artist="Our Love Story • Sweety's Birthday"
+            artist="Our Love Story • Neha's Birthday"
           />
         </div>
       </div>
@@ -1334,7 +1334,7 @@ export function HeartMosaicCanvas() {
         <p className="text-[12px] italic text-[#4a2e2e]/90 leading-[1.35]" style={{ fontFamily: "serif" }}>
           To the girl who holds my whole heart,
           <br />
-          Happy Birthday Sweety. Forever yours.
+          Happy Birthday Neha. Forever yours.
         </p>
       </div>
 
@@ -1565,14 +1565,14 @@ export function PageHeartfeltMessage() {
           className="text-[14px] italic leading-none block mt-0.5"
           style={{ fontFamily: "'Bodoni Moda', Georgia, serif", color: FLIPBOOK_CONFIG.accentColor }}
         >
-          To my sweet Sweety on her birthday
+          To my sweet Neha on her birthday
         </span>
       </div>
 
       {/* Letter Body */}
       <div className="my-auto space-y-3 px-2">
         <p className="text-[11px] leading-[1.5] text-[#292524] text-justify font-semibold" style={{ fontFamily: "serif" }}>
-          Dearest Sweety,
+          Dearest Neha,
         </p>
         <p className="text-[9.5px] leading-[1.55] text-[#44403c] text-justify">
           Happy Birthday to the prettiest, sweetest girl in the universe! Watching you step into this new chapter makes me realize just how lucky I am to have you by my side. You bring so much peace, pure joy, and warmth into my world.
@@ -1711,7 +1711,7 @@ export function PageBackCoverFlipbook() {
             color: "#d4af6a", // gold foil
           }}
         >
-          BIRTHDAY SWEETY
+          BIRTHDAY NEHA
         </h3>
         <p className="text-[16px] text-white/80 mt-1" style={{ fontFamily: "'Aesthetic Script', 'Playfair Display', cursive" }}>
           Cheers to forever with you
@@ -1763,7 +1763,7 @@ export function PageBackCoverFlipbook() {
             This is our story
           </span>
           <span className="text-[7px] tracking-[0.18em] text-white/60 uppercase block">
-            WRITTEN WITH LOVE, FOR SWEETY
+            WRITTEN WITH LOVE, FOR NEHA
           </span>
           <span className="text-[8px] font-bold text-white/90 tracking-wider block mt-0.5 uppercase">
             FOREVER &amp; ALWAYS YOURS

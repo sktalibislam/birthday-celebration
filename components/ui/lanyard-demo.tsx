@@ -754,7 +754,7 @@ function PostageStamp({ className = "", style }: { className?: string; style?: R
         opacity={0.65}
       />
       <text x={40} y={57} textAnchor="middle" fontSize={6} fontFamily="sans-serif" fill="currentColor" letterSpacing="0.12em" opacity={0.8}>
-        SWEETY
+        NEHA
       </text>
     </svg>
   );

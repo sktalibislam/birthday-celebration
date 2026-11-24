@@ -475,7 +475,7 @@ function getTime(countdown: boolean, targetDate?: Date): TimeLeft {
   }
 
   // Countdown Mode: Default to November 11, 2026 IST
-  const target = targetDate || new Date("2026-11-11T00:00:00+05:30");
+  const target = targetDate || new Date("2026-11-27T00:00:00+05:30");
   const diff = Math.max(0, target.getTime() - now.getTime());
 
   return {

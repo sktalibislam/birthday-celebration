@@ -17,7 +17,7 @@ export async function GET() {
     status: 200,
     headers: {
       "Content-Type": "video/mp4",
-      "Content-Disposition": 'attachment; filename="sweety-birthday-magazine.mp4"',
+      "Content-Disposition": 'attachment; filename="neha-birthday-magazine.mp4"',
       "Content-Length": fileBuffer.length.toString(),
       "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
       "Pragma": "no-cache",

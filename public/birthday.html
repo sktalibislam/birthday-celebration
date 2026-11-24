@@ -406,7 +406,7 @@
 <body>
 
   <div class="bg-reveal" id="bgReveal">
-    <img id="bgRevealImg" src="/bg2.jpg" alt="Sweety">
+    <img id="bgRevealImg" src="/bg2.jpg" alt="Neha">
   </div>
 
   <audio
@@ -438,11 +438,11 @@
 <!-- ---------------- spotify-style mini player ---------------- -->
 <div class="player" id="musicPlayer">
   <div class="player-art">
-    <img id="artA" class="is-active" src="/ref/girl1.jpg" alt="Sweety">
-    <img id="artB" src="/ref/girl2.jpg" alt="Sweety">
+    <img id="artA" class="is-active" src="/ref/girl1.jpg" alt="Neha">
+    <img id="artB" src="/ref/girl2.jpg" alt="Neha">
   </div>
   <div class="player-info">
-    <div class="player-title">Sweety Song</div>
+    <div class="player-title">Neha Song</div>
     <div class="player-artist">Birthday Playlist</div>
     <div class="player-progress">
       <span class="player-time" id="curTime">0:00</span>
@@ -476,7 +476,7 @@
 <script>
   // ---- real birth date/time in IST: Oct 24, 2011 (Turning 15 in Chapter 15) ----
   const IST_OFFSET_MS = (5 * 60 + 30) * 60000;
-  const BIRTH_UTC_MS = Date.UTC(2011, 9, 23, 18, 30, 0); // Oct 24 IST
+  const BIRTH_UTC_MS = Date.UTC(2005, 10, 10, 18, 30, 0); // Oct 24 IST
   const shiftedBirth = new Date(BIRTH_UTC_MS + IST_OFFSET_MS); // read with getUTC* for IST wall-clock parts
 
   function computeParts(){
@@ -510,8 +510,8 @@
   }
 
   const initial = computeParts();
-  const AGE = initial.years;
-  const DISPLAY_AGE = Math.max(0, AGE - 1);
+  const AGE = 22;
+  const DISPLAY_AGE = 21;
 
   document.getElementById('watermark').textContent = String(DISPLAY_AGE).padStart(2,'0');
 
